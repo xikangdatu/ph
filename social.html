@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>课题组导师</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* body 样式 */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* 标题 */
+.header {
+    padding: 25px;
+    padding-left: 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* 标题字体加大 */
+.header h1 {
+    font-size: 40px;
+}
+
+/* 导航 */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* 导航栏样式 */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* 右侧链接*/
+.navbar a.right {
+    float: right;
+}
+
+/* 鼠标移动到链接的颜色 */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* 列容器 */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* 创建两个列 */
+/* 边栏 */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* 主要的内容区域 */
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 30px;
+}
+
+/* 测试图片 */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* 底部 */
+.footer {
+    padding: 1px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 700px 时, 让两栏上下堆叠显示 */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 400px 时, 让导航栏目上下堆叠显示 */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2 align="left">张天阳课题组</h2>
+  <p align="left">苏州大学公共卫生学院</p>
+  
+</div>
+
+<div class="navbar">
+  <a href="index.html">基本情况</a>
+  <a href="advisor.html">导师简介</a>
+  <a href="member.html">团队成员</a>
+  <a href="research.html">研究方向</a>
+  <a href="publication.html">科研成果</a>
+  <a href="contact.html">联系我们</a>
+</div>
+  <div class="main">
+      <h3>学术兼职</h3>
+      <p style = "line-height:33px">
+		  &bull;&nbsp;&nbsp;国际情感障碍学会会士<br>
+		  &bull;&nbsp;&nbsp;中国心理学会神经心理学专业委员会委员<br>
+		  &bull;&nbsp;&nbsp;中国优生优育协会儿童心理教育专业委员会委员<br>
+		  &bull;&nbsp;&nbsp;江苏省健康教育协会社区健康教育与促进专业委员会常务委员<br>
+		  &bull;&nbsp;&nbsp;江苏省卫生标准化技术委员会卫生健康教育专业委员会委员</p>	
+		  <h3>社会工作</h3>
+      <p style = "line-height:33px">
+		  &bull;&nbsp;&nbsp;国家自然科学基金项目通讯评议人<br>
+		  &bull;&nbsp;&nbsp;教育部学位与研究生教育发展中心研究生学位论文评议人<br>
+		  &bull;&nbsp;&nbsp;苏州大学临床医学留学生班班主任（2015-2018）</p>
+      <h3>期刊审稿</h3>
+      <p style = "line-height:33px">
+	      &bull;&nbsp;&nbsp;Epidemiology and Psychiatric Sciences<br>
+      &bull;&nbsp;&nbsp;Journal of Affective Disorders<br> 
+      &bull;&nbsp;&nbsp;Psychological Trauma<br>
+      &bull;&nbsp;&nbsp;Frontiers in Public Health: Public Mental Health<br>  
+      &bull;&nbsp;&nbsp;International Journal of Social Psychiatry<br>
+      &bull;&nbsp;&nbsp;Children and Youth Services Review<br>
+		  &bull;&nbsp;&nbsp;Experimental Brain Research<br>
+		  &bull;&nbsp;&nbsp;Public Health<br>
+		  &bull;&nbsp;&nbsp;Journal of Child and Family Studies<br>
+      &bull;&nbsp;&nbsp;Global Health Research and Policy</p>      
+  </div>
+</div>
+
+<div class="footer">
+  <h5>苏州大学公共卫生学院 张天阳课题组</h5>
+</div>
+
+</body>
+</html>
