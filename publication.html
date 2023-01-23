@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>课题组成果</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* body 样式 */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* 标题 */
+.header {
+    padding: 25px;
+    padding-left: 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* 标题字体加大 */
+.header h1 {
+    font-size: 40px;
+}
+
+/* 导航 */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* 导航栏样式 */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* 右侧链接*/
+.navbar a.right {
+    float: right;
+}
+
+/* 鼠标移动到链接的颜色 */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* 列容器 */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* 创建两个列 */
+/* 边栏 */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* 主要的内容区域 */
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 30px;
+}
+
+/* 测试图片 */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* 底部 */
+.footer {
+    padding: 1px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 700px 时, 让两栏上下堆叠显示 */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 400px 时, 让导航栏目上下堆叠显示 */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2 align="left">张天阳课题组</h2>
+  <p align="left">苏州大学公共卫生学院</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">基本情况</a>
+  <a href="advisor.html">导师简介</a>
+  <a href="member.html">团队成员</a>
+  <a href="research.html">研究方向</a>
+  <a href="publication.html">科研成果</a>
+  <a href="contact.html">联系我们</a>
+ </div>
+  <div class="main">
+      <h3>代表论文</h3>
+      <p style = "line-height:33px">
+      &bull;&nbsp;&nbsp;Wenxin Bao, Yi Qian, Wenjing Fei, Shun Tian, Yiran Geng, Shaishai Wang, Chenwei Pan, Danlin Li<sup>*</sup>, & Tianyang Zhang<sup>*</sup>. (2023). Bullying victimization and suicide attempts among adolescents in 41 low- and middle-income countries: Roles of sleep deprivation and body mass. Frontiers in Public Health: Public Mental Health.<br>
+      &bull;&nbsp;&nbsp;Wenjing Fei, Shun Tian, Hongshu Xiang, Yiran Geng, Jiachun Yu, Chenwei Pan<sup>*</sup>, & Tianyang Zhang<sup>*</sup>. (2022). Associations of bullying victimization in different frequencies and types with suicide behaviours among school-going adolescents in low- and middle-income countries. Epidemiology and Psychiatric Sciences, 31, e58, 1-10.<br>
+      &bull;&nbsp;&nbsp;Xingxuan Dong, Gang Liang, Danlin Li, Minxin Liu, Zhijian Yin, Yuezu Li, Tianyang Zhang<sup>*</sup>, & Chenwei Pan<sup>*</sup>. (2022). Association between parental control and depressive symptoms among college freshmen in China: The chain mediating role of chronotype and sleep quality. Journal of Affective Disorders, 317, 256-264.<br>
+      &bull;&nbsp;&nbsp;Yiran Geng, Wenjing Fei, Zhengyu Tang, Shaishai Wang, Jiachun Yu, Ming Zhang<sup>*</sup>, & Tianyang Zhang<sup>*</sup>. (2022). Parental care and depressive symptoms among Chinese medical students: Roles of empathy and gender. BMC Medical Education, 22, 451.<br>
+      &bull;&nbsp;&nbsp;Ming Zhang, Shaishai Wang, Zheng Wang, Xiaoqin Peng, Wenjing Fei, Yiran Geng, & Tianyang Zhang<sup>*</sup>. (2021). Associations of affective and cognitive empathy with depressive symptoms among a
+sample of Chinese college freshmen. Journal of Affective Disorders, 292, 652-659.<br>
+			&bull;&nbsp;&nbsp;Wenjing Fei, Yiran Geng, Shaishai Wang, Qinghua Ma, Xiaoqin Peng, Ming Zhang, & Tianyang Zhang<sup>*</sup>. (2021). Association between parental control and subclinical depressive symptoms in a sample of college freshmen: Roles of empathy and gender. Journal of Affective Disorders, 286, 301-308.<br>
+			&bull;&nbsp;&nbsp;Shun Tian, Tianyang Zhang (Co-first author), Yiming Miao, & Chenwei Pan<sup>*</sup>. (2021). Psychological distress and parental involvement among adolescents in 67 low-income and middle-income countries: A population-based study. Journal of Affective Disorders, 282, 1101-1109.<br>
+		&bull;&nbsp;&nbsp;Bo Dong, Airui Chen, Yuting Zhang, Yangyang Zhang, Ming Zhang<sup>*</sup>, & Tianyang Zhang<sup>*</sup>. (2021). The foggy effect of egocentric distance in the nonverbal paradigm. Scientific Reports, 11, 14398.<br>
+      &bull;&nbsp;&nbsp;Shaishai Wang, Huagang Hu, Xinyang Wang, Bo Dong<sup>*</sup>, & Tianyang Zhang<sup>*</sup>. (2021). The hidden danger in family environment: The role of self-reported parenting style in cognitive and affective empathy among offenders. Frontiers in Psychology: Developmental Psychology, 12, 588993.<br>
+      &bull;&nbsp;&nbsp;Shaishai Wang, Xinyang Wang, Yuxi Chen, Qingsong Xu, Liying Cai, & Tianyang Zhang<sup>*</sup>. (2021). Association between relational trauma and empathy among male offenders in China. Criminal Behaviour and Mental Health, 31(4), 248-261.<br>
+      <span style="float:right;"><sup>*</sup> Corresponding author</span></p>
+      <br>
+      <h3>科研获奖</h3>
+      <p style = "line-height:33px">
+      &bull;&nbsp;&nbsp;江苏省哲学社会科学优秀成果奖三等奖（张明、王晒晒、王政、彭晓琴、费文静、耿毅然、张天阳），2023<br>
+      &bull;&nbsp;&nbsp;江苏省研究生“心理学+”学术创新论坛学术论文一等奖（费文静、耿毅然），2022<br>
+      &bull;&nbsp;&nbsp;全国大学生基础医学创新研究暨实验设计论坛本科院校复赛预防医学赛道优秀成果奖（汤正宇），2022<br>
+      &bull;&nbsp;&nbsp;苏州市自然科学优秀学术论文三等奖（张天阳、费文静、耿毅然），2022<br>
+      &bull;&nbsp;&nbsp;苏州大学“挑战杯”大学生课外学术科技作品竞赛苏州医学院比赛特等奖（钱一、包文欣），2021<br>
+      &bull;&nbsp;&nbsp;苏州大学“挑战杯”大学生课外学术科技作品竞赛特等奖（耿毅然），2021</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h5>苏州大学公共卫生学院 张天阳课题组</h5>
+</div>
+
+</body>
+</html>
