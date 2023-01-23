@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>课题组导师</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* body 样式 */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* 标题 */
+.header {
+    padding: 25px;
+    padding-left: 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* 标题字体加大 */
+.header h1 {
+    font-size: 40px;
+}
+
+/* 导航 */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* 导航栏样式 */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* 右侧链接*/
+.navbar a.right {
+    float: right;
+}
+
+/* 鼠标移动到链接的颜色 */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* 列容器 */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* 创建两个列 */
+/* 边栏 */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* 主要的内容区域 */
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 30px;
+}
+
+/* 测试图片 */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* 底部 */
+.footer {
+    padding: 1px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 700px 时, 让两栏上下堆叠显示 */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 400px 时, 让导航栏目上下堆叠显示 */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2 align="left">张天阳课题组</h2>
+  <p align="left">苏州大学公共卫生学院</p>
+  
+</div>
+
+<div class="navbar">
+  <a href="index.html">基本情况</a>
+  <a href="advisor.html">导师简介</a>
+  <a href="member.html">团队成员</a>
+  <a href="research.html">研究方向</a>
+  <a href="publication.html">科研成果</a>
+ <a href="contact.html">联系我们</a>
+ </div> 
+  <div class="main">
+      
+      <h3>讲授课程</h3>
+       <p style = "line-height:33px">
+       &bull;&nbsp;&nbsp;社会医学<br>
+       &bull;&nbsp;&nbsp;儿童少年卫生学<br>
+			 &bull;&nbsp;&nbsp;实验心理学<br>
+			 &bull;&nbsp;&nbsp;环境心理学<br>
+       &bull;&nbsp;&nbsp;生活方式与健康</p>
+       
+       <h3>代表著作</h3>
+      <p style = "line-height:33px">
+      &bull;&nbsp;&nbsp;参编《衰老预防医学》，人民卫生出版社，2022<br>
+      &bull;&nbsp;&nbsp;参编《传染病社区防控健康教育手册》，中华医学电子音像出版社，2022<br>
+      &bull;&nbsp;&nbsp;参译《认知心理学：心智、研究与生活》（第五版），中国轻工业出版社，2020<br>
+      &bull;&nbsp;&nbsp;参译《心理学研究方法：评估信息世界之法》（第三版），中国轻工业出版社，2020<br>
+      &bull;&nbsp;&nbsp;参编《破解儿童情绪障碍的难题》，科学出版社，2018<br>
+      &bull;&nbsp;&nbsp;主编《识别儿童孤独症 / 注意缺陷多动障碍》，苏州江南电子音像出版社，2018<br>
+      &bull;&nbsp;&nbsp;参编《找寻注意缺陷多动障碍的对策》，科学出版社，2017<br>
+      &bull;&nbsp;&nbsp;参编《医事法学》（第五版、第六版），东南大学出版社，2017；2022「江苏省高等学校重点教材」<br>
+      &bull;&nbsp;&nbsp;参校《实验心理学》（第四版），北京大学出版社，2016「普通高等教育本科国家级规划教材」<br>
+      &bull;&nbsp;&nbsp;参译《认知心理学：心智、研究与你的生活》（第三版），中国轻工业出版社，2015「教育部第八届高等学校科学研究优秀成果奖」</p>
+      
+      <h3>教研项目</h3>
+      <p style = "line-height:33px">
+      &bull;&nbsp;&nbsp;苏州大学本科教学团队建设项目：实验心理学教学团队，参与，2018-2021<br>
+      &bull;&nbsp;&nbsp;苏州大学创新创业类课程建设项目：互联网+ 健康传播课程，参与，2017-2019<br>
+      &bull;&nbsp;&nbsp;苏州大学通识选修课程建设项目：生活方式与健康课程，参与，2015-2017</p> 
+      
+ <h3>教学获奖</h3>
+      <p style = "line-height:33px">
+      &bull;&nbsp;&nbsp;苏州大学学生“我最喜爱的老师”，2020<br>
+      &bull;&nbsp;&nbsp;苏州大学医学部学生“我最喜爱的老师”，2020<br>
+       &bull;&nbsp;&nbsp;全国高校医学类微课教学比赛专项奖，2020<br>
+      &bull;&nbsp;&nbsp;苏州大学本科毕业实习优秀指导教师，2018<br>
+      &bull;&nbsp;&nbsp;苏州大学医学部优秀留学生班主任，2018
+      </p>
+		  </div>
+</div>
+
+<div class="footer">
+  <h5>苏州大学公共卫生学院 张天阳课题组</h5>
+</div>
+
+</body>
+</html>
