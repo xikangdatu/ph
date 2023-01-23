@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>课题组研究</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* body 样式 */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* 标题 */
+.header {
+    padding: 25px;
+    padding-left: 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* 标题字体加大 */
+.header h1 {
+    font-size: 40px;
+}
+
+/* 导航 */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* 导航栏样式 */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* 右侧链接*/
+.navbar a.right {
+    float: right;
+}
+
+/* 鼠标移动到链接的颜色 */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* 列容器 */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* 创建两个列 */
+/* 边栏 */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* 主要的内容区域 */
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 30px;
+}
+
+/* 测试图片 */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* 底部 */
+.footer {
+    padding: 1px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 700px 时, 让两栏上下堆叠显示 */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* 响应式布局 - 在屏幕设备宽度尺寸小于 400px 时, 让导航栏目上下堆叠显示 */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2 align="left">张天阳课题组</h2>
+  <p align="left">苏州大学公共卫生学院</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">基本情况</a>
+  <a href="advisor.html">导师简介</a>
+  <a href="member.html">团队成员</a>
+  <a href="research.html">研究方向</a>
+  <a href="publication.html">科研成果</a>
+  <a href="contact.html">联系我们</a>
+ </div>
+  <div class="main">
+      <h3>研究领域</h3>
+      <p style = "line-height:33px">
+      &bull;&nbsp;&nbsp;社会情感健康（Socioemotional Health）<br>
+      &bull;&nbsp;&nbsp;公共心理卫生（Public Mental Health）</p> 
+	     <h3>科研项目</h3>
+      <p style = "line-height:33px">
+      &bull;&nbsp;&nbsp;国家自然科学基金青年科学基金项目：社会排斥影响自我反思加工的认知神经机制，2019-2021<br>
+      &bull;&nbsp;&nbsp;教育部人文社会科学研究一般项目：青少年共情发展与亚临床抑郁症状的关联分析及干预策略研究，2022-2025<br>
+      &bull;&nbsp;&nbsp;江苏省自然科学基金青年基金项目：社会拒斥对自我反思加工的影响，2016-2019<br>
+      &bull;&nbsp;&nbsp;江苏省教育厅高等学校哲学社会科学研究一般项目：青少年共情与抑郁症状的关联分析及社会情感干预策略研究，2022-2025<br>
+      &bull;&nbsp;&nbsp;江苏省教育厅高等学校哲学社会科学研究一般项目：自我构念对空间参照框架和视觉空间观点采择的影响，2018-2021<br>
+      &bull;&nbsp;&nbsp;国家留学基金公派访问学者项目：老年人社会认知老化特征和神经机制研究，2021-2023<br>
+     &bull;&nbsp;&nbsp;江苏省自然科学基金青年基金项目：弱视者物我距离知觉障碍的机制及其矫治，2019-2022<br>
+       &bull;&nbsp;&nbsp;江苏省老年病预防与转化医学重点实验室开放课题：基于触觉认知的老年痴呆早期诊断技术及其应用研究，2021-2023</p>
+       
+  </div>
+</div>
+
+<div class="footer">
+  <h5>苏州大学公共卫生学院 张天阳课题组</h5>
+</div>
+
+</body>
+</html>
